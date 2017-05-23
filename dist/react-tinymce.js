@@ -64,6 +64,10 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	'use strict';
 	
+	Object.defineProperty(exports, '__esModule', {
+	  value: true
+	});
+	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 	
 	var _react = __webpack_require__(2);
@@ -207,7 +211,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	  TinyMCE.propTypes[name] = _react2['default'].PropTypes.func;
 	});
 	
-	module.exports = TinyMCE;
+	exports['default'] = TinyMCE;
+	module.exports = exports['default'];
 
 /***/ },
 /* 2 */
