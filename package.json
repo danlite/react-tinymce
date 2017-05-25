@@ -1,6 +1,6 @@
 {
   "name": "react-tinymce",
-  "version": "0.5.1-patch-lodash-version",
+  "version": "0.5.1-es6-classes-modules",
   "description": "React TinyMCE component",
   "main": "lib/main.js",
   "scripts": {
